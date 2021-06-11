@@ -1,0 +1,21 @@
+#ifndef __Liberary_H__
+#define __Liberary_H__
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdint.h>
+#include "tm4c123gh6pm.h"
+#include "inc/hw_ssi.h"
+#include "inc/hw_types.h"
+#include "inc/hw_memmap.h"
+#include "driverlib/ssi.h"
+#include "driverlib/gpio.h"
+#include "driverlib/pin_map.h"
+#include "driverlib/sysctl.h"
+#include "driverlib/interrupt.h"
+#include "driverlib/systick.h"
+#include "driverlib/sysctl.h"
+#include "driverlib/sysctl.c"
+#include "driverlib/adc.h"
+#include "driverlib/uart.h"
+#include "driverlib/timer.h"
+#endif
